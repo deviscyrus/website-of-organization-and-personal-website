@@ -2,22 +2,28 @@ body {
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+
         }
         main {
             flex: 1;
-            background: #f8f9fa;
+            background: #c8cdd3;
             padding: 40px 20px;
         }
         .chat-wrapper {
+            background-image: url(2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 20px 10px;
         }
         .chat-container {
-            height: 600px;
+            height: 900px;
             max-width: 700px;
             width: 100%;
-            background: white;
+            background: rgb(156, 185, 212);
             border-radius: 10px;
             box-shadow: 0 5px 20px rgba(0,0,0,0.1);
             display: flex;
@@ -25,7 +31,7 @@ body {
         }
         .chat-header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            color: rgb(168, 161, 161);
             padding: 20px;
             border-radius: 10px 10px 0 0;
             text-align: center;
