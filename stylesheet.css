@@ -149,9 +149,16 @@ footer {
     border-radius: 10px;
 }
 .image-container img{
-    display: block;
-    width: 100%;
-    height:auto;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height:90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 50px;
+    justify-items: center;
+    justify-content: center;
+
 }
 .overlay-text{
     position: absolute;
@@ -163,10 +170,7 @@ footer {
     font-size: 20px;
     text-align: center;
 }
-.services-section my-5{
+.imagesandtexts{
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    width:auto;
-    height:auto; 
+    flex-direction: row;
 }
