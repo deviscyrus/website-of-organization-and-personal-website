@@ -59,6 +59,7 @@ body {
 /* Footer customization */
 footer {
     background-color: #212529;
+    
 }
 
 /* Custom animations */
@@ -88,28 +89,32 @@ footer {
     font-size: large;
     word-spacing:5px;
     border-radius: 10px;
-    background-image: url(0e41c2ef571279dcbcb490c185ac70d4.jpg);
+    background-image: url(f2ec4c0c77b373112e09772c553a9b50.jpg);
     background-repeat:repeat;
-    background-position:bottom;
+    background-position:center;
     background-size: cover;
     padding: 25px;
+    margin-left: 10%;
 
 }
 .imagesofvenues{
     padding: 30px;
     border-radius: 25px;
     width:auto;
-    height:300px;
     display:flex;
-    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-left:10px;
 
 }
 .image-slider{
-    width:400px;
-    height:400px;
+    width:40%;
+    height:80%;
     text-align: center;
-    background-image: url('Why visit Uganda_ It’s home to the world’s most… (1).jpeg');
+    margin-left: 30%;
+    border-radius: 25px;
+    transition: 0.3s;
+
 }
 .hero-section {
   position: relative;
